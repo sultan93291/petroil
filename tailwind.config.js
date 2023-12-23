@@ -1,0 +1,20 @@
+/** @type {import('tailwindcss').Config} */
+
+module.exports = {
+  content: ["*"],
+  theme: {
+    extend: {
+      maxWidth: {
+        container: "1144px",
+      },
+      colors: {
+        black: "#282828",
+        white: "rgba(255, 255, 255, 1)",
+        red: "#F40404",
+        text_color:"#000"
+      },
+    },
+  },
+  plugins: [],
+};
+
