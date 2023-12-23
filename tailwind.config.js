@@ -12,7 +12,8 @@ module.exports = {
         white: "rgba(255, 255, 255, 1)",
         red: "#F40404",
         text_color: "#000",
-        offwhite:"rgba(240, 240, 240, 1)"
+        offwhite: "rgba(240, 240, 240, 1)",
+        Transparent: "rgba(255, 255, 255, 0.50);",
       },
     },
   },
