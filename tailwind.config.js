@@ -16,6 +16,9 @@ module.exports = {
         Transparent: "rgba(255, 255, 255, 0.50);",
         dark_black: "rgba(40, 40, 40, 1)",
       },
+      fontFamily: {
+        poppins: "'Poppins', sans-serif;",
+      },
     },
   },
   plugins: [],

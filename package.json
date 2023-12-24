@@ -4,7 +4,10 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "tailwindcss -i ./styles/tailwind.css -o ./styles/style.min.css --minify",
+    "watch": "tailwindcss -i ./styles/tailwind.css -o ./styles/style.min.css --watch",
+    "dev": "vite build"
   },
   "keywords": [],
   "author": "",

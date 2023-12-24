@@ -7,9 +7,12 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link href="./styles/tailwind.css" rel="stylesheet">
 </head>
-<body>
+<body class="font-poppins">
   <!-- ==== header started here ====  -->
   <header class=" bg-black border-b-[5px] border-[#FFB800;]">
     <div class="max-w-container  mx-auto h-[51px] flex justify-between ">
@@ -156,8 +159,7 @@
   <!-- ==== box started here ====  -->
   <section class=" bg-offwhite h-[673px] relative  ">
     <div class="flex justify-between  max-w-container mx-auto  pt-[110px]">
-      <div class="  w-[309px] h-[401px] pt-[76px] pl-[46px] bg-cover overflow-hidden "
-        style="background: url(./images/helmet.png);">
+      <div class="  w-[309px] h-[401px] pt-[76px] pl-[46px] bg-cover  " style="background: url(./images/helmet.png);">
         <h4 class="text-[24px] relative  font-[700] w-[220px] text-white mb-[52px]">lorem ipsum dolor sit amet
           consectetur
           adipiscing elit sed do eiusmod.</h4>
@@ -176,7 +178,8 @@
           read more
         </a>
       </div>
-      <div class="  w-[309px] h-[401px] pt-[76px] pl-[46px] bg-cover  overflow-hidden"
+      <div
+        class="  w-[309px] h-[401px] pt-[76px] pl-[46px] bg-cover relative after:absolute after:content-['MORE_FROM_THE_BLOG_>'] after:bottom-0 after:right-0 after:mb-[-46px]  after:text-[16px] after:font-[700] after:text-text_color"
         style="background: url(./images/red_pipe.png);">
         <h4 class="text-[24px] relative  font-[700] w-[220px] text-white mb-[52px]">lorem ipsum dolor sit amet
           consectetur
@@ -187,7 +190,6 @@
         </a>
       </div>
     </div>
-    <h5 class="ml-[1313px] mt-[28px] text-[16px] font-[700]  ">MORE FROM THE BLLOG ></h5>
   </section>
   <!-- ==== box ended here ==== -->
   <!-- ==== map started here ====  -->
@@ -226,13 +228,13 @@
         </div>
         <div class="flex items-center  text-white text-[14px] gap-x-[19px] ">
           <i
-            class="fa-brands fa-facebook-f py-[8px] px-[11px] rounded-full bg-red hover:text-red hover:bg-white transition duration-300"></i>
+            class="fa-brands fa-facebook-f py-[10px] px-[13px] rounded-full bg-red hover:text-red hover:bg-white transition duration-300"></i>
           <i
             class="fa-brands fa-twitter  py-[10px] px-[11px] rounded-full  hover:text-red hover:bg-white bg-red transition duration-300 "></i>
           <i
             class="fa-brands fa-linkedin  py-[10px] px-[11px] rounded-full  hover:text-red bg-red hover:bg-white transition duration-300"></i>
           <i
-            class="fa-brands fa-instagram  py-[8px] px-[11px] rounded-full  hover:text-red bg-red hover:bg-white transition duration-300"></i>
+            class="fa-brands fa-instagram  py-[10px] px-[11px] rounded-full  hover:text-red bg-red hover:bg-white transition duration-300"></i>
         </div>
       </div>
       <div class=" flex flex-col gap-y-[21px]">
@@ -272,8 +274,7 @@
   <!-- ==== footer ended here ==== -->
   <script type="module" src="./tailwind.config.js"></script>
   <script>
-    window.onload(alert("Hey Stranger Welcome 🖤 !"))
-    window.onunload(alert("You're trying to exit are you sure ? "))
+    // window.onload(alert("Hey Stranger Welcome 🖤 !"))
   </script>
 </body>
 </html>
