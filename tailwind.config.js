@@ -14,6 +14,7 @@ module.exports = {
         text_color: "#000",
         offwhite: "rgba(240, 240, 240, 1)",
         Transparent: "rgba(255, 255, 255, 0.50);",
+        dark_black: "rgba(40, 40, 40, 1)",
       },
     },
   },
